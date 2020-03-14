@@ -1,0 +1,112 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column {width:750px}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+.column {width:300px}
+.slider-area {
+    margin-top: 50px;
+}
+.single-slider h2 {
+    font-size: 24px;
+    line-height: normal;
+}
+.slid h2:after {
+    margin: 20px auto;
+}
+.single-slider p {
+    width: 100%;
+        line-height: 28px;
+    font-size: 16px;
+}
+.header-area {
+    padding-bottom: 20px;
+}
+.section-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 25px;
+}
+.single-service {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.service-title h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.left-expertice {
+    padding-left: 10px;
+}
+.heading-content p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.right-expertice a img {
+    width: 98%;
+    height: auto;
+}
+.input a input {
+    margin-bottom: 50px;
+}
+.portflio-left {
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+.ipad-img a img {
+    max-width: 100%;
+}
+.portflio-right {
+    padding-left: 0;
+    padding-top: 10px;
+}
+.single-image a img {
+    height: auto;
+    width: 90%;
+}
+.single-image {
+    text-align: center;
+}
+.awesome-content p {
+    padding: 20px;
+}
+.footer-right {
+    padding-top: 50px;
+}
+.first-input, .second-input {
+    width: 100%;
+
+}
+.third-input {
+    width: 100%;
+    padding: 15px;
+}
+.fourth-input {
+    font-size: 14px;
+    padding: 12px;
+}
+.fourth-input:active, .fourth-input:focus, .fourth-input:hover {outline: none;}
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.column {width:450px}
+
+}
+
+
